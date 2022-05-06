@@ -65,7 +65,7 @@ All the snippets are available in the 🌈 [Table of Snippets](./SNIPPETS.md)
 
 We are giving away 1000 NFTs to the first 1000 people who installs our VSCode extension and claims the NFT!
 
-![NFT](./web/public/assests/nft.png)
+![NFT](./public/assests/nft.png)
 
 ### :tada: Claiming the NFT
 
