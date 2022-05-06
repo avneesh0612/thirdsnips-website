@@ -1,34 +1,94 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌈 thirdsnips
 
-## Getting Started
+> Stop re-writing thirdweb snippets. Use thirdsnips to make it all snap!
 
-First, run the development server:
+![Thirdsnips](https://res.cloudinary.com/didkcszrq/image/upload/v1648392505/OG_image_p6027z.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Thirdsnips is a tool which enhances the developer experience while working with [thirdweb](https://thirdweb.com/).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🏛 About thirdweb
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+thirdweb is a platform that provides developers with all the tools needed to build sophisticated web3 apps. Use their smart contracts, SDKs, and UI components to create your own NFTs, governance tokens, marketplaces, and more.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+![](https://imgur.com/ycxqwQ2.png)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+![](https://imgur.com/SitQvou.png)
 
-## Learn More
+![](https://imgur.com/HXbFnH8.png)
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 How to install thirdsnips ?
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### ✨ Visual Studio Code
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Install thirdsnips from the VSCode marketplace
+2. Reload VSCode
+3. The snippets are ready to use!
 
-## Deploy on Vercel
+### ✨ Vim
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+You can use thirdsnips in vim by the following snippet-plugins:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [vim-vsnip](https://github.com/hrsh7th/vim-vsnip)
+- [LuaSnip](https://github.com/L3MON4D3/LuaSnip)
+- [coc-snippets](https://github.com/neoclide/coc-snippets)
+
+Please set up the aforementioned plugins before using this snippet plugin. You
+might need to explicitly enable loading of VSCode snippet plugins (like in the case of LuaSnip).
+
+1. With [packer](https://github.com/wbthomason/packer.nvim) -
+
+   ```
+   use "avneesh0612/thirdsnips"
+   ```
+
+2. With [vim-plug](https://github.com/junegunn/vim-plug)
+
+   ```
+   Plug "avneesh0612/thirdsnips"
+   ```
+
+3. If you are using `coc-snippets`, you can simply run the following command -
+
+   ```
+   :CocInstall https://github.com/avneesh0612/thirdsnips@main
+   ```
+
+### ✨ Atom
+
+_Coming soon_
+
+## 🦄 Usage
+
+All the snippets are available in the 🌈 [Table of Snippets](./SNIPPETS.md)
+
+## 👀 Early access NFT
+
+We are giving away 1000 NFTs to the first 1000 people who installs our VSCode extension and claims the NFT!
+
+![NFT](./web/public/assests/nft.png)
+
+### :tada: Claiming the NFT
+
+1. Install the VSCode extension from the marketplace
+2. Create a new JavaScript/TypeScript file
+3. Use the `secret` snippet in that file and copy the secret code
+4. Head over to https://thirdsnips.live/mint and enter the secret code and mint your NFT 🎉
+
+The entire process is free and you don't even need any gas!
+
+## 🚀 Powered by
+
+<p align="center">
+<a href="https://thirdweb.com/">
+<img src="https://user-images.githubusercontent.com/76690419/160518840-fb6b1cd8-dad2-49df-9013-25fc16e031ab.svg"/>
+</a>
+</p>
+
+## ⭐ Show your support
+
+Give a ⭐️ if this project helped you!
+
+## 📝 License
+
+Copyright © 2022 [Avneesh Agarwal](https://github.com/avneesh0612).<br />
+This project is [GNU](https://github.com/avneesh0612/thirdweb-snippets/blob/main/LICENSE) licensed.
